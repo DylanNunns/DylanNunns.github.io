@@ -27,7 +27,13 @@
 		ga('create', 'UA-40741056-2', 'auto');
 		ga('send', 'pageview');
 	</script>
-	<script>
+</head>
+<body>
+	<canvas id='canv'></canvas>
+	<h2>Dylan Nunns</h2>
+</body>
+<footer>
+		<script>
 		var c = document.getElementById('canv'), 
     $ = c.getContext("2d");
 var w = c.width = window.innerWidth, 
@@ -83,10 +89,6 @@ window.addEventListener('resize', function(){
   c.width = w = window.innerWidth;
   c.height = h = window.innerHeight;
 }, false);
-	</script>
-</head>
-<body>
-	<canvas id='canv'></canvas>
-	<h2>Dylan Nunns</h2>
-</body>
+	</script>	
+</footer>
 </html>
